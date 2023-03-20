@@ -1,4 +1,7 @@
 # helm-learning
+
+*This repo is for self learning purpose only.*
+
 ## Run docker file within Minikube
 
 If the docker was build locally, not docker hub nor inside minikube, then the image won’t be found. To build the docker image within Minikube, please see below
@@ -28,9 +31,9 @@ If the docker was build locally, not docker hub nor inside minikube, then the im
 
 ## Troubleshooting
 
-- when run `helm install full-coral ./kj-helm`
+- when run `helm install full-coral ./helm-learning`
     - Received an error: `Error: INSTALLATION FAILED: cannot re-use a name that is still in use`
-        - use helm upgrade instead, since you can’t install the same thing twice: `KJ-helm helm upgrade full-coral ./kj-helm`
+        - use helm upgrade instead, since you can’t install the same thing twice: `helm-learning helm upgrade full-coral ./helm-learning`
             
             `full-coral` is the release name, it can be anything
             
