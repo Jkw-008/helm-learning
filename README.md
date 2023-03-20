@@ -40,3 +40,10 @@ If the docker was build locally, not docker hub nor inside minikube, then the im
 - display the configmap `kubectl describe configmaps`
 - `Error: INSTALLATION FAILED: template: hello-world/templates/serviceaccount.yaml:1:14: executing "hello-world/templates/serviceaccount.yaml" at <.Values.serviceAccount.create>: nil pointer evaluating interface {}.create`
     - set `serviceAccount` into false in `values.yaml`
+
+---
+
+## Successful Deployment
+<img width="1053" alt="Screenshot 2023-03-20 at 16 02 17" src="https://user-images.githubusercontent.com/61333047/226403954-fd7fc019-c6e2-4a76-9164-eb1ec505c97a.png">
+
+<img width="385" alt="Screenshot 2023-03-20 at 16 02 52" src="https://user-images.githubusercontent.com/61333047/226403977-6c85d603-12a2-4dde-a007-159abf429b74.png">
