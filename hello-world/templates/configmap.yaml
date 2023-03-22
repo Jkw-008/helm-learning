@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}
+  labels:
+    app.kubernetes.io/name: {{ .Release.Name }}
+    release: {{ .Release.Name }}
+  
+data:
+  person_name: "person"
+  key_value: "Whatever"

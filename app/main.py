@@ -1,8 +1,8 @@
 from fastapi import FastAPI
-
+import os
 app = FastAPI()
 
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": f"Hello World {os.getenv('person_name')}"}
